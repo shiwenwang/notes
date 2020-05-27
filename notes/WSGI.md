@@ -2,7 +2,7 @@
 tags: [Python]
 title: WSGI
 created: '2020-05-25T05:14:34.604Z'
-modified: '2020-05-26T03:57:31.933Z'
+modified: '2020-05-27T00:48:41.902Z'
 ---
 
 # WSGI
@@ -13,6 +13,9 @@ WSGI 全称 The Python Web Server Gateway Interface， 它是描述 Web 服务�
 > :bulb: 它不是一个服务、Python 模块、框架或者任何种类的软件，它只是 web 服务器和 web 应用之间通讯的接口规范。来自 [PEP333](https://www.python.org/dev/peps/pep-3333/)。
 
 在框架或工具包之上构建应用程序，学习 WSGI 规范不是必须的。要使用中间件，必须至少了解如何将它们与应用程序或框架进行堆叠^[WSGI applications (meaning WSGI compliant) can be stacked. 符合 WSGI 规范的应用程序是可以堆叠的，在堆叠的应用程序中间起连接作用的是中间件。]，除非它已经集成在框架中，或者框架提供某种封装器来集成那些没有集成的中间件。
+<p align="center">
+  <img src="@attachment/wsgi/wsgi.png"></img>
+</p>
 
 ## 应用接口
 
